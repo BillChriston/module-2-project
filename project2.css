@@ -1,0 +1,123 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 20px 20px 20px 20px;
+  text-align: center;
+    font-family: cursive;
+    font-size: 175%;
+}
+
+.row {
+  margin-left: 15px;
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1 {
+    float: left;
+    border: 1px solid black;
+    background-color: #777581;
+    height: 190px;
+    margin-right: 10px;
+    font-family: cursive;
+    color: white;
+    width: 32%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, {
+  }
+  .col-md-1 {
+    float: left;
+    width: 47%;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: #777581;
+    font-family: cursive;
+    font-size: 100%;
+    color: white;
+  }
+  .col-md-2 {
+    float: left;
+    width: 47%;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: #777581;
+    font-family: cursive;
+    font-size: 100%;
+    color: white;
+  }
+  .col-md-3 {
+    clear: left;
+    width: 96%;
+    margin-left: 10px;
+    border: 1px solid black;
+    background-color: #777581;
+    font-family: cursive;
+    font-size: 100%;
+    color: white;
+  }
+  
+}
+
+#subtitle1 {
+  float: right;
+  text-align: center;
+  border: 1px solid black;
+  background-color: pink;
+  padding: 3px;
+  width: 150px;
+  height: 35px;
+  color: black;
+  font-size: 125%;
+}
+
+#subtitle2 {
+  float: right;
+  text-align: center;
+  border: 1px solid black;
+  background-color: darkred;
+  padding: 3px;
+  width: 150px;
+  height: 35px;
+  color: white;
+  font-size: 125%;
+}
+
+#subtitle3 {
+  float: right;
+  text-align: center;
+  border: 1px solid black;
+  background-color: yellow;
+  padding: 3px;
+  width: 150px;
+  height: 35px;
+  color: black;
+  font-size: 125%;
+}
+
+#content {
+  clear: right;
+  padding: 15px
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-sm-1, {
+  }
+  .col-sm-1 {
+    width: 92%;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: #777581;
+    font-family: cursive;
+    font-size: 100%;
+    color: white;
+  }
